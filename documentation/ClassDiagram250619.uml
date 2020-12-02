@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main</OriginalElement>
+  <nodes>
+    <node x="355.79583333333335" y="244.0">main.DataHandler</node>
+    <node x="511.3577777777777" y="939.5">main.MappingPrinter</node>
+    <node x="243.2958333333334" y="0.0">main.MatchKey</node>
+    <node x="227.43416666666656" y="1351.0">main.ListOntologies</node>
+    <node x="87.7958333333334" y="884.5">main.EvaluationModel.MatchEvaluation</node>
+    <node x="719.2958333333333" y="852.0">main.Metrics</node>
+    <node x="75.62222222222226" y="486.5">main.EvaluationModel.Loop</node>
+    <node x="923.0069444444443" y="475.0">main.Metrics.ValuesFrequency</node>
+    <node x="855.3402777777778" y="1173.5">main.Metrics.Values</node>
+    <node x="10.5" y="1173.0">main.EvaluationModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.MappingPrinter" target="main.DataHandler">
+      <point x="5.6843418860808015E-14" y="-48.0" />
+      <point x="595.3577777777778" y="827.0" />
+      <point x="615.2958333333333" y="827.0" />
+      <point x="0.0" y="279.0" />
+    </edge>
+    <edge source="main.ListOntologies" target="main.Metrics.Values">
+      <point x="88.75" y="-91.5" />
+      <point x="493.68416666666656" y="1321.0" />
+      <point x="957.8402777777778" y="1321.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="main.DataHandler" target="main.MatchKey">
+      <point x="0.0" y="-279.0" />
+      <point x="615.2958333333333" y="214.0" />
+      <point x="400.1083333333334" y="214.0" />
+      <point x="60.3125" y="92.0" />
+    </edge>
+    <edge source="main.Metrics" target="main.DataHandler">
+      <point x="-187.875" y="-135.5" />
+      <point x="781.9208333333333" y="827.0" />
+      <point x="788.2958333333333" y="827.0" />
+      <point x="173.0" y="279.0" />
+    </edge>
+    <edge source="main.Metrics" target="main.Metrics.Values">
+      <point x="-62.625" y="135.5" />
+      <point x="907.1708333333333" y="1153.0" />
+      <point x="957.8402777777778" y="1153.0" />
+      <point x="0.0" y="-58.5" />
+    </edge>
+    <edge source="main.Metrics.Values" target="main.Metrics">
+      <point x="-68.33333333333326" y="-58.5" />
+      <point x="889.5069444444446" y="1153.0" />
+      <point x="781.9208333333333" y="1153.0" />
+      <point x="-187.875" y="135.5" />
+    </edge>
+    <edge source="main.ListOntologies" target="main.Metrics">
+      <point x="147.91666666666663" y="-91.5" />
+      <point x="552.8508333333332" y="1331.0" />
+      <point x="1070.8402777777778" y="1331.0" />
+      <point x="1070.8402777777778" y="1153.0" />
+      <point x="1157.6708333333333" y="1153.0" />
+      <point x="187.875" y="135.5" />
+    </edge>
+    <edge source="main.EvaluationModel.Loop" target="main.EvaluationModel">
+      <point x="-50.0" y="36.5" />
+      <point x="100.62222222222226" y="827.0" />
+      <point x="70.94444444444446" y="827.0" />
+      <point x="70.94444444444446" y="1143.0" />
+      <point x="111.05555555555554" y="1143.0" />
+      <point x="-80.44444444444446" y="-59.0" />
+    </edge>
+    <edge source="main.ListOntologies" target="main.EvaluationModel">
+      <point x="-88.75" y="-91.5" />
+      <point x="316.18416666666656" y="1321.0" />
+      <point x="101.0" y="1321.0" />
+      <point x="-90.5" y="59.0" />
+    </edge>
+    <edge source="main.ListOntologies" target="main.DataHandler">
+      <point x="29.58333333333337" y="-91.5" />
+      <point x="434.5174999999999" y="1311.0" />
+      <point x="492.6841666666666" y="1311.0" />
+      <point x="492.6841666666666" y="827.0" />
+      <point x="442.29583333333335" y="827.0" />
+      <point x="-173.0" y="279.0" />
+    </edge>
+    <edge source="main.EvaluationModel.MatchEvaluation" target="main.EvaluationModel.Loop">
+      <point x="-59.0" y="-103.0" />
+      <point x="146.7958333333334" y="827.0" />
+      <point x="150.62222222222226" y="827.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="main.EvaluationModel.MatchEvaluation" target="main.EvaluationModel">
+      <point x="88.5" y="103.0" />
+      <point x="294.2958333333334" y="1153.0" />
+      <point x="271.94444444444446" y="1153.0" />
+      <point x="80.44444444444446" y="-59.0" />
+    </edge>
+    <edge source="main.Metrics.ValuesFrequency" target="main.Metrics">
+      <point x="68.99999999999989" y="48.0" />
+      <point x="1095.5069444444443" y="827.0" />
+      <point x="1157.6708333333333" y="827.0" />
+      <point x="187.875" y="-135.5" />
+    </edge>
+    <edge source="main.EvaluationModel" target="main.MatchKey">
+      <point x="120.66666666666663" y="-59.0" />
+      <point x="312.16666666666663" y="1153.0" />
+      <point x="334.2958333333334" y="1153.0" />
+      <point x="334.2958333333334" y="224.0" />
+      <point x="327.7333333333334" y="224.0" />
+      <point x="-12.0625" y="92.0" />
+    </edge>
+    <edge source="main.EvaluationModel" target="main.EvaluationModel.MatchEvaluation">
+      <point x="40.2222222222222" y="-59.0" />
+      <point x="231.7222222222222" y="1153.0" />
+      <point x="235.2958333333334" y="1153.0" />
+      <point x="29.5" y="103.0" />
+    </edge>
+    <edge source="main.ListOntologies" target="main.MatchKey">
+      <point x="-147.91666666666652" y="-91.5" />
+      <point x="257.01750000000004" y="1331.0" />
+      <point x="0.0" y="1331.0" />
+      <point x="0.0" y="204.0" />
+      <point x="255.3583333333334" y="204.0" />
+      <point x="-84.4375" y="92.0" />
+    </edge>
+    <edge source="main.Metrics" target="main.Metrics.ValuesFrequency">
+      <point x="62.625" y="-135.5" />
+      <point x="1032.4208333333333" y="827.0" />
+      <point x="1026.5069444444443" y="827.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30694980694980695" x="610.5" y="767.0" />
+  <SelectedNodes>
+    <node>main.DataHandler</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
